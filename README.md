@@ -1,4 +1,4 @@
-# MMLS-Downloader
+# Past-Year-Downloader
 Simple tool to download all the past year papers from the subjects you are registered to.
 
 ###Features
@@ -12,7 +12,7 @@ Simple tool to download all the past year papers from the subjects you are regis
     - Windows 
       - http://rubyinstaller.org/ ( Nokogiri does not support Ruby 2.2.0 at time or writing so get 2.0.0   instead)
     - Linux/MacOSX 
-      - Anyway you which, but i recommend RVM https://rvm.io/rvm/install
+      - Anyway you wish, but i recommend RVM https://rvm.io/rvm/install
   2. run ` bundle install `
   3. run ` ruby past_year.rb `
   
