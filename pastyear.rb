@@ -16,6 +16,7 @@ class Subject
     @name
   end
 end
+
 db = Daybreak::DB.new "mmls.db"
 agent = Mechanize.new
 agent.agent.http.verify_mode = OpenSSL::SSL::VERIFY_NONE
