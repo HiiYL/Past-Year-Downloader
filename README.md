@@ -16,5 +16,5 @@ Simple tool to download all the past year papers from the subjects you are regis
   2. run ` bundle install `
   3. run ` ruby past_year.rb `
   
-  
- ![Example](https://cloud.githubusercontent.com/assets/7908951/10268354/71447b8a-6ae8-11e5-8bdf-cb37b2a3f9eb.png)
+[<img src="https://cloud.githubusercontent.com/assets/7908951/10268354/71447b8a-6ae8-11e5-8bdf-cb37b2a3f9eb.png" width=355 height=240>](Example)
+[<img src="https://cloud.githubusercontent.com/assets/7908951/10268647/8aee0b60-6af1-11e5-89cc-6edaab52d4fe.png" width=323 height=240>](Example)
