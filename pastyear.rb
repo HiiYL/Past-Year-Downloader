@@ -85,15 +85,15 @@ subject_links_urls.each do |link|
   subjects << subject
 end
 begin
-  cipher = Cipher.new ["K", "D", "w", "X", "H", "3", "e", "1", "S", "B", "g", "a", "y", "v", "I", "6", "u", "W", "C", "0", "9", "b", "z", "T", "A", "q", "U", "4", "O", "o", "E", "N", "r", "n", "m", "d", "k", "x", "P", "t", "R", "s", "J", "L", "f", "h", "Z", "j", "Y", "5", "7", "l", "p", "c", "2", "8", "M", "V", "G", "i", " ", "Q", "F"]
+  # cipher = Cipher.new ["K", "D", "w", "X", "H", "3", "e", "1", "S", "B", "g", "a", "y", "v", "I", "6", "u", "W", "C", "0", "9", "b", "z", "T", "A", "q", "U", "4", "O", "o", "E", "N", "r", "n", "m", "d", "k", "x", "P", "t", "R", "s", "J", "L", "f", "h", "Z", "j", "Y", "5", "7", "l", "p", "c", "2", "8", "M", "V", "G", "i", " ", "Q", "F"]
   agent.pluggable_parser.default = Mechanize::Download
   page = agent.get("http://library.mmu.edu.my.proxyvlib.mmu.edu.my/library2/diglib/exam_col/")
   form = page.form
-  form.user = "1141125087"
-  form.pass = cipher.decrypt "KDwc28MVG"
-  page = agent.submit(form)
-  form = page.form
-  db.close
+  # form.user = "1141125087"
+  # form.pass = cipher.decrypt "KDwc28MVG"
+  # page = agent.submit(form)
+  # form = page.form
+  # db.close
   subjects.each do |subject|
     puts "Current Subject: " + subject.name
     form.rt = subject.code
